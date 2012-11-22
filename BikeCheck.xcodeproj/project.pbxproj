@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		744BA20674EA4A11884BA9F0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CB154B76914F1290701008 /* libPods.a */; };
 		962071F6165E003300B8DE80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962071F5165E003300B8DE80 /* UIKit.framework */; };
 		962071F8165E003300B8DE80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962071F7165E003300B8DE80 /* Foundation.framework */; };
 		962071FA165E003300B8DE80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962071F9165E003300B8DE80 /* CoreGraphics.framework */; };
@@ -16,13 +17,18 @@
 		96207208165E003300B8DE80 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 96207207165E003300B8DE80 /* Default.png */; };
 		9620720A165E003300B8DE80 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96207209165E003300B8DE80 /* Default@2x.png */; };
 		9620720C165E003300B8DE80 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9620720B165E003300B8DE80 /* Default-568h@2x.png */; };
+		96207219165E011E00B8DE80 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96207217165E011E00B8DE80 /* MainViewController.m */; };
+		9620721A165E011E00B8DE80 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96207218165E011E00B8DE80 /* MainViewController.xib */; };
+		9620722C165E07F900B8DE80 /* bike1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9620722B165E07F900B8DE80 /* bike1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13CB154B76914F1290701008 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		59418E3003924FBAB64242D5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		962071F1165E003300B8DE80 /* BikeCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		962071F5165E003300B8DE80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		962071F7165E003300B8DE80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		962071F9165E003300B8DE80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		962071F5165E003300B8DE80 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		962071F7165E003300B8DE80 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		962071F9165E003300B8DE80 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		962071FD165E003300B8DE80 /* BikeCheck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BikeCheck-Info.plist"; sourceTree = "<group>"; };
 		962071FF165E003300B8DE80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96207201165E003300B8DE80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -32,6 +38,10 @@
 		96207207165E003300B8DE80 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		96207209165E003300B8DE80 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9620720B165E003300B8DE80 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		96207216165E011E00B8DE80 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		96207217165E011E00B8DE80 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		96207218165E011E00B8DE80 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		9620722B165E07F900B8DE80 /* bike1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bike1.png; path = ../../../bike1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,7 @@
 				962071F6165E003300B8DE80 /* UIKit.framework in Frameworks */,
 				962071F8165E003300B8DE80 /* Foundation.framework in Frameworks */,
 				962071FA165E003300B8DE80 /* CoreGraphics.framework in Frameworks */,
+				744BA20674EA4A11884BA9F0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +65,7 @@
 				962071FB165E003300B8DE80 /* BikeCheck */,
 				962071F4165E003300B8DE80 /* Frameworks */,
 				962071F2165E003300B8DE80 /* Products */,
+				59418E3003924FBAB64242D5 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +83,7 @@
 				962071F5165E003300B8DE80 /* UIKit.framework */,
 				962071F7165E003300B8DE80 /* Foundation.framework */,
 				962071F9165E003300B8DE80 /* CoreGraphics.framework */,
+				13CB154B76914F1290701008 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,6 +93,10 @@
 			children = (
 				96207204165E003300B8DE80 /* AppDelegate.h */,
 				96207205165E003300B8DE80 /* AppDelegate.m */,
+				96207216165E011E00B8DE80 /* MainViewController.h */,
+				96207217165E011E00B8DE80 /* MainViewController.m */,
+				96207218165E011E00B8DE80 /* MainViewController.xib */,
+				9620722B165E07F900B8DE80 /* bike1.png */,
 				962071FC165E003300B8DE80 /* Supporting Files */,
 			);
 			path = BikeCheck;
@@ -109,6 +126,7 @@
 				962071ED165E003300B8DE80 /* Sources */,
 				962071EE165E003300B8DE80 /* Frameworks */,
 				962071EF165E003300B8DE80 /* Resources */,
+				A0FD4F8C0240401BABEE07E3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,10 +172,29 @@
 				96207208165E003300B8DE80 /* Default.png in Resources */,
 				9620720A165E003300B8DE80 /* Default@2x.png in Resources */,
 				9620720C165E003300B8DE80 /* Default-568h@2x.png in Resources */,
+				9620721A165E011E00B8DE80 /* MainViewController.xib in Resources */,
+				9620722C165E07F900B8DE80 /* bike1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0FD4F8C0240401BABEE07E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		962071ED165E003300B8DE80 /* Sources */ = {
@@ -166,6 +203,7 @@
 			files = (
 				96207202165E003300B8DE80 /* main.m in Sources */,
 				96207206165E003300B8DE80 /* AppDelegate.m in Sources */,
+				96207219165E011E00B8DE80 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +275,7 @@
 		};
 		96207210165E003300B8DE80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59418E3003924FBAB64242D5 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BikeCheck/BikeCheck-Prefix.pch";
@@ -248,6 +287,7 @@
 		};
 		96207211165E003300B8DE80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59418E3003924FBAB64242D5 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BikeCheck/BikeCheck-Prefix.pch";
@@ -276,6 +316,7 @@
 				96207211165E003300B8DE80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
