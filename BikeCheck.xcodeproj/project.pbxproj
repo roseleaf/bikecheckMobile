@@ -20,6 +20,8 @@
 		96207219165E011E00B8DE80 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96207217165E011E00B8DE80 /* MainViewController.m */; };
 		9620721A165E011E00B8DE80 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96207218165E011E00B8DE80 /* MainViewController.xib */; };
 		9620722C165E07F900B8DE80 /* bike1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9620722B165E07F900B8DE80 /* bike1.png */; };
+		96207238165EADC900B8DE80 /* BartStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 96207237165EADC900B8DE80 /* BartStore.m */; };
+		96D47CC3165F91F100D07F35 /* Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D47CC2165F91F100D07F35 /* Time.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,10 @@
 		96207217165E011E00B8DE80 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		96207218165E011E00B8DE80 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		9620722B165E07F900B8DE80 /* bike1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bike1.png; path = ../../../bike1.png; sourceTree = "<group>"; };
+		96207236165EADC900B8DE80 /* BartStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BartStore.h; sourceTree = "<group>"; };
+		96207237165EADC900B8DE80 /* BartStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BartStore.m; sourceTree = "<group>"; };
+		96D47CC1165F91F100D07F35 /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		96D47CC2165F91F100D07F35 /* Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Time.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,12 @@
 				96207205165E003300B8DE80 /* AppDelegate.m */,
 				96207216165E011E00B8DE80 /* MainViewController.h */,
 				96207217165E011E00B8DE80 /* MainViewController.m */,
+				96D47CC1165F91F100D07F35 /* Time.h */,
+				96D47CC2165F91F100D07F35 /* Time.m */,
 				96207218165E011E00B8DE80 /* MainViewController.xib */,
-				9620722B165E07F900B8DE80 /* bike1.png */,
+				96207236165EADC900B8DE80 /* BartStore.h */,
+				96207237165EADC900B8DE80 /* BartStore.m */,
+				96207235165EAD2E00B8DE80 /* Assets */,
 				962071FC165E003300B8DE80 /* Supporting Files */,
 			);
 			path = BikeCheck;
@@ -114,6 +124,14 @@
 				9620720B165E003300B8DE80 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96207235165EAD2E00B8DE80 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9620722B165E07F900B8DE80 /* bike1.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +222,8 @@
 				96207202165E003300B8DE80 /* main.m in Sources */,
 				96207206165E003300B8DE80 /* AppDelegate.m in Sources */,
 				96207219165E011E00B8DE80 /* MainViewController.m in Sources */,
+				96207238165EADC900B8DE80 /* BartStore.m in Sources */,
+				96D47CC3165F91F100D07F35 /* Time.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

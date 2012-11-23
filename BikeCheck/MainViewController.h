@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import <RestKit/RestKit.h>
-@interface MainViewController : UIViewController <RKRequestDelegate>
+#import "BartStore.h"
 
+@interface MainViewController : UIViewController <RKRequestDelegate, UIPickerViewDataSource, UIPickerViewDelegate>
+//View Elements:
+@property (weak, nonatomic) IBOutlet UILabel *responseDisplay;
+@property (weak, nonatomic) IBOutlet UILabel *stnDisplay;
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+@property (weak, nonatomic) IBOutlet UIPickerView *stationPicker;
+//Variables:
+@property (strong) NSArray* stationNames;
+@property (strong) NSArray* stationsAbbs;
 @end
