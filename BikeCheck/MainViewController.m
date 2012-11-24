@@ -73,8 +73,9 @@
     self.timeLabel.text = [Time timeString];
     
     //Design question: if this time issue is handled on the server, it would prevent duplication, which is always good. But if it's handled client-side, it prevents pings to the server after hours. Weighing the two, this will probably eventually move to server-side.
-    if ([Time getHour]==00 & [Time getMinute]>25 || [Time getHour]<04){
+    if (([Time getHour]==00 && [Time getMinute]>25) || ([Time getHour]<04)){
         self.responseDisplay.text = @"Bart's closed, check back after 4AM, Cowboy.";
+
     } else {
         [self checkBartWithDepart:depart andArrive:arrive];
 
